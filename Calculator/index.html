@@ -1,0 +1,68 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>-</title>
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body onselectstart="return false">
+	<div id="panel">
+		<div class="menu">
+		</div>
+		
+		<div class="display">
+			<div class="panel">
+				<ul>
+					<li class="finding"></li>
+					<li class="conclusion">0</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="button">
+			<ul>
+				<li class="symbol butt symbolOn" onclick="number(7);"><span class="sign">MC<span></li>
+				<li class="symbol butt symbolOn" onclick="number(8);"><span class="sign">MR<span></li>
+				<li class="symbol butt symbolOn" onclick="number(9);"><span class="sign">MS<span></li>
+				<li class="symbol butt symbolOn" onclick="action('/');"><span class="sign">M+<span></li>
+				<li class="symbol butt symbolOn" onclick="number('%');"><span class="sign">M-<span></li>
+			</ul>
+			<ul>
+				<li class="symbol butt symbolOn one"><span class="sign" style="font-size:30px;margin-top:-5px;">&larr;<span></li>
+				<li class="symbol butt symbolOn clean"><span class="sign">CE<span></li>
+				<li class="symbol butt symbolOn delete"><span class="sign">C<span></li>
+				<li class="symbol butt symbolOn falseSymbol"><span class="sign">+ -<span></li>
+				<li class="symbol butt symbolOn koren"><span class="sign">&radic;<span></li>
+			</ul>
+			<ul>
+				<li class="numberSymbol butt numberOn" onclick="number(7);"><span class="number">7<span></li>
+				<li class="numberSymbol butt numberOn" onclick="number(8);"><span class="number">8<span></li>
+				<li class="numberSymbol butt numberOn" onclick="number(9);"><span class="number">9<span></li>
+				<li class="symbol butt symbolOn" onclick="action('/');"><span class="sign">/<span></li>
+				<li class="symbol butt symbolOn" onclick="number('%');"><span class="sign">%<span></li>
+			</ul>
+			<ul>
+				<li class="numberSymbol butt numberOn" onclick="number(4);"><span class="number">4<span></li>
+				<li class="numberSymbol butt numberOn" onclick="number(5);"><span class="number">5<span></li>
+				<li class="numberSymbol butt numberOn" onclick="number(6);"><span class="number">6<span></li>
+				<li class="symbol butt symbolOn" onclick="action('*');"><span class="sign">*<span></li>
+				<li class="symbol butt symbolOn" onclick="number('1/x');"><span class="sign">1/x<span></li>
+			</ul>
+			<ul>
+				<li class="numberSymbol butt numberOn" onclick="number(1);"><span class="number">1<span></li>
+				<li class="numberSymbol butt numberOn" onclick="number(2);"><span class="number">2<span></li>
+				<li class="numberSymbol butt numberOn" onclick="number(3);"><span class="number">3<span></li>
+				<li class="symbol butt symbolOn" onclick="action('-');"><span class="sign">-<span></li>
+				<li class="numberHeight anyway numberOnHeight"><span class="sign">=<span></li>
+			</ul>
+			<ul>
+				<li class="numberWidth noll numberOnWidth" onclick="number(0);"><span class="number">0<span></li>
+				<li class="numberSymbol point numberOn" onclick="number('.');"><span class="number">.<span></li>
+				<li class="symbol plus symbolOn" onclick="action('+');"><span class="sign">+<span></li>
+			</ul>
+		</div>
+	</div>
+	<script language="javascript" src="script.js"></script>
+</body>
+</html>
