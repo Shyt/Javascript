@@ -1,1 +1,1 @@
-# Javascript-Jquery
+Шпаргалка по javascript
