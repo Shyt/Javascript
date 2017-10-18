@@ -1,1 +1,1 @@
-Шпаргалка по javascript
+Подсказки по javascript
